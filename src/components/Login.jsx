@@ -6,6 +6,7 @@ import { SessionContext } from "../router/SessionContext"; // Import the Session
 import Axios from "axios";
 import { AiOutlineLogout } from "react-icons/Ai";
 import Footer from "./Footer";
+import bgImage from "../Designer.png";
 
 if (typeof window !== "undefined") {
   window.global = window;
@@ -147,7 +148,10 @@ const Login = () => {
 
   return (
     <>
-      <div className="min-h-screen flex items-center justify-center bg-[theme-background] py-12 px-4 sm:px-6 lg:px-8">
+      <div
+        className="min-h-screen flex items-center justify-center bg-[theme-background] py-12 px-4 sm:px-6 lg:px-8"
+        style={{ backgroundImage: `url(${bgImage})` }}
+      >
         <div className="max-w-md w-full space-y-8 p-6 bg-white rounded-xl shadow-md">
           {session && (
             <button

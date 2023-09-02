@@ -6,7 +6,7 @@ const Footer = () => {
     <div className="bg-gray-800 text-white p-6">
       <div className="flex justify-between">
         <a
-          href="https://github.com/your-repo-link"
+          href="https://github.com/gprethesh/waxLinker"
           className="hover:text-gray-400"
           target="_blank"
           rel="noopener noreferrer"

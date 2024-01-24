@@ -4,7 +4,7 @@ import { NavLink } from "react-router-dom";
 import { Link } from "react-router-dom";
 import { SessionContext } from "../router/SessionContext"; // Import the SessionContext
 import Axios from "axios";
-import { AiOutlineLogout } from "react-icons/Ai";
+import { AiOutlineLogout } from "react-icons/ai";
 import Footer from "./Footer";
 import bgImage from "../Designer.png";
 
